@@ -1,0 +1,130 @@
+#intro {
+    background-image: url("pawn-shop.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    background-color: white;
+    padding: 10vh;
+    flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+#intro2 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-color: white;
+    padding: 10vh;
+    flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #intro h2 {
+    color: red;
+    font-size: 36px;
+  }
+  
+  #intro p {
+    font-size: 18px;
+    color: red;
+  }
+  #intro2 h2 {
+    color: red;
+    font-size: 36px;
+  }
+  
+  #intro2 p {
+    font-size: 18px;
+    color: red;
+  }
+
+  #intro3 {
+    background-color: white;
+    padding: 10vh;
+  }
+  
+  #intro3 h2 {
+    color: red;
+    font-size: 36px;
+  }
+  
+  #intro3 p {
+    font-size: 18px;
+    color: red;
+  }
+  
+  .card_1 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    float: left;
+    border: solid red 5px;
+  }
+  .card_2 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 100%vh;
+    border: solid red 5px;
+    border-bottom-right-radius: 75px;
+  }
+  
+  .card_3 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 500px;
+    margin-left: 33%;
+    border: solid red 5px;
+    border-bottom-right-radius: 75px;
+  }
+  
+  .card_text h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .card_text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+
